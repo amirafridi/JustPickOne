@@ -1,0 +1,779 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		08BF6634A3473D430C376BBF /* Pods_JustPick1UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 046891FFED28CC1868A0FA8B /* Pods_JustPick1UITests.framework */; };
+		2514866A21E64377002FF2D6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2514866921E64377002FF2D6 /* AppDelegate.swift */; };
+		2514866C21E64377002FF2D6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2514866B21E64377002FF2D6 /* ViewController.swift */; };
+		2514867121E6437D002FF2D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2514867021E6437D002FF2D6 /* Assets.xcassets */; };
+		2514867421E6437D002FF2D6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2514867221E6437D002FF2D6 /* LaunchScreen.storyboard */; };
+		2514867F21E6437D002FF2D6 /* JustPick1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2514867E21E6437D002FF2D6 /* JustPick1Tests.swift */; };
+		2514868A21E6437D002FF2D6 /* JustPick1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2514868921E6437D002FF2D6 /* JustPick1UITests.swift */; };
+		2514869821E653E4002FF2D6 /* EnterOptionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2514869721E653E4002FF2D6 /* EnterOptionsViewController.swift */; };
+		2514869B21E68188002FF2D6 /* PickOneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2514869A21E68188002FF2D6 /* PickOneViewController.swift */; };
+		6D8C75A4B47B853B7F97AD76 /* Pods_JustPick1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0F94E27CBF930F187B44149 /* Pods_JustPick1.framework */; };
+		B872FF3250456B4F80C80D69 /* Pods_JustPick1Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D459F30BCF535993EB2F8B1 /* Pods_JustPick1Tests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2514867B21E6437D002FF2D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2514865E21E64377002FF2D6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2514866521E64377002FF2D6;
+			remoteInfo = JustPick1;
+		};
+		2514868621E6437D002FF2D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2514865E21E64377002FF2D6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2514866521E64377002FF2D6;
+			remoteInfo = JustPick1;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0390B708878F3336C3D5FAFE /* Pods-JustPick1Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JustPick1Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JustPick1Tests/Pods-JustPick1Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		046891FFED28CC1868A0FA8B /* Pods_JustPick1UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JustPick1UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2514866621E64377002FF2D6 /* JustPick1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JustPick1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2514866921E64377002FF2D6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2514866B21E64377002FF2D6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2514867021E6437D002FF2D6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2514867321E6437D002FF2D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2514867521E6437D002FF2D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2514867A21E6437D002FF2D6 /* JustPick1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JustPick1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2514867E21E6437D002FF2D6 /* JustPick1Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JustPick1Tests.swift; sourceTree = "<group>"; };
+		2514868021E6437D002FF2D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2514868521E6437D002FF2D6 /* JustPick1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JustPick1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2514868921E6437D002FF2D6 /* JustPick1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JustPick1UITests.swift; sourceTree = "<group>"; };
+		2514868B21E6437D002FF2D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2514869721E653E4002FF2D6 /* EnterOptionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnterOptionsViewController.swift; sourceTree = "<group>"; };
+		2514869A21E68188002FF2D6 /* PickOneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickOneViewController.swift; sourceTree = "<group>"; };
+		567BE1B6306D339A461B0C96 /* Pods-JustPick1Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JustPick1Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-JustPick1Tests/Pods-JustPick1Tests.release.xcconfig"; sourceTree = "<group>"; };
+		5D459F30BCF535993EB2F8B1 /* Pods_JustPick1Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JustPick1Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		808915F685119D297FCBA671 /* Pods-JustPick1UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JustPick1UITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-JustPick1UITests/Pods-JustPick1UITests.release.xcconfig"; sourceTree = "<group>"; };
+		8E286347F1190582E0144F86 /* Pods-JustPick1.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JustPick1.release.xcconfig"; path = "Pods/Target Support Files/Pods-JustPick1/Pods-JustPick1.release.xcconfig"; sourceTree = "<group>"; };
+		A64A8374586A7341C3B854C8 /* Pods-JustPick1.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JustPick1.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JustPick1/Pods-JustPick1.debug.xcconfig"; sourceTree = "<group>"; };
+		AC1FBB99F9C57D8478E92A2B /* Pods-JustPick1UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JustPick1UITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JustPick1UITests/Pods-JustPick1UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E0F94E27CBF930F187B44149 /* Pods_JustPick1.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JustPick1.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2514866321E64377002FF2D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D8C75A4B47B853B7F97AD76 /* Pods_JustPick1.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2514867721E6437D002FF2D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B872FF3250456B4F80C80D69 /* Pods_JustPick1Tests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2514868221E6437D002FF2D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08BF6634A3473D430C376BBF /* Pods_JustPick1UITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2514865D21E64377002FF2D6 = {
+			isa = PBXGroup;
+			children = (
+				2514866821E64377002FF2D6 /* JustPick1 */,
+				2514867D21E6437D002FF2D6 /* JustPick1Tests */,
+				2514868821E6437D002FF2D6 /* JustPick1UITests */,
+				2514866721E64377002FF2D6 /* Products */,
+				42014DC2F062A3741B41F6E1 /* Pods */,
+				DD5F861D70EA5E2D11E9A578 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2514866721E64377002FF2D6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2514866621E64377002FF2D6 /* JustPick1.app */,
+				2514867A21E6437D002FF2D6 /* JustPick1Tests.xctest */,
+				2514868521E6437D002FF2D6 /* JustPick1UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2514866821E64377002FF2D6 /* JustPick1 */ = {
+			isa = PBXGroup;
+			children = (
+				2514869921E67B1A002FF2D6 /* ViewControllers */,
+				2514866921E64377002FF2D6 /* AppDelegate.swift */,
+				2514867021E6437D002FF2D6 /* Assets.xcassets */,
+				2514867221E6437D002FF2D6 /* LaunchScreen.storyboard */,
+				2514867521E6437D002FF2D6 /* Info.plist */,
+			);
+			path = JustPick1;
+			sourceTree = "<group>";
+		};
+		2514867D21E6437D002FF2D6 /* JustPick1Tests */ = {
+			isa = PBXGroup;
+			children = (
+				2514867E21E6437D002FF2D6 /* JustPick1Tests.swift */,
+				2514868021E6437D002FF2D6 /* Info.plist */,
+			);
+			path = JustPick1Tests;
+			sourceTree = "<group>";
+		};
+		2514868821E6437D002FF2D6 /* JustPick1UITests */ = {
+			isa = PBXGroup;
+			children = (
+				2514868921E6437D002FF2D6 /* JustPick1UITests.swift */,
+				2514868B21E6437D002FF2D6 /* Info.plist */,
+			);
+			path = JustPick1UITests;
+			sourceTree = "<group>";
+		};
+		2514869921E67B1A002FF2D6 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				2514866B21E64377002FF2D6 /* ViewController.swift */,
+				2514869721E653E4002FF2D6 /* EnterOptionsViewController.swift */,
+				2514869A21E68188002FF2D6 /* PickOneViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		42014DC2F062A3741B41F6E1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A64A8374586A7341C3B854C8 /* Pods-JustPick1.debug.xcconfig */,
+				8E286347F1190582E0144F86 /* Pods-JustPick1.release.xcconfig */,
+				0390B708878F3336C3D5FAFE /* Pods-JustPick1Tests.debug.xcconfig */,
+				567BE1B6306D339A461B0C96 /* Pods-JustPick1Tests.release.xcconfig */,
+				AC1FBB99F9C57D8478E92A2B /* Pods-JustPick1UITests.debug.xcconfig */,
+				808915F685119D297FCBA671 /* Pods-JustPick1UITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DD5F861D70EA5E2D11E9A578 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E0F94E27CBF930F187B44149 /* Pods_JustPick1.framework */,
+				5D459F30BCF535993EB2F8B1 /* Pods_JustPick1Tests.framework */,
+				046891FFED28CC1868A0FA8B /* Pods_JustPick1UITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2514866521E64377002FF2D6 /* JustPick1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2514868E21E6437D002FF2D6 /* Build configuration list for PBXNativeTarget "JustPick1" */;
+			buildPhases = (
+				C0A7F5FE1567855DA2C5359A /* [CP] Check Pods Manifest.lock */,
+				2514866221E64377002FF2D6 /* Sources */,
+				2514866321E64377002FF2D6 /* Frameworks */,
+				2514866421E64377002FF2D6 /* Resources */,
+				8E6F5D9BD711C5154AF052DC /* [CP] Embed Pods Frameworks */,
+				8DF719353AB7656D291878BF /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JustPick1;
+			productName = JustPick1;
+			productReference = 2514866621E64377002FF2D6 /* JustPick1.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2514867921E6437D002FF2D6 /* JustPick1Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2514869121E6437D002FF2D6 /* Build configuration list for PBXNativeTarget "JustPick1Tests" */;
+			buildPhases = (
+				956A1602C8B901FF9D276A84 /* [CP] Check Pods Manifest.lock */,
+				2514867621E6437D002FF2D6 /* Sources */,
+				2514867721E6437D002FF2D6 /* Frameworks */,
+				2514867821E6437D002FF2D6 /* Resources */,
+				8606629BDFB52543E1DC0352 /* [CP] Embed Pods Frameworks */,
+				5B2C617405607C90587361E9 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2514867C21E6437D002FF2D6 /* PBXTargetDependency */,
+			);
+			name = JustPick1Tests;
+			productName = JustPick1Tests;
+			productReference = 2514867A21E6437D002FF2D6 /* JustPick1Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2514868421E6437D002FF2D6 /* JustPick1UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2514869421E6437D002FF2D6 /* Build configuration list for PBXNativeTarget "JustPick1UITests" */;
+			buildPhases = (
+				8B7AF3EAFE5FB2E03036E980 /* [CP] Check Pods Manifest.lock */,
+				2514868121E6437D002FF2D6 /* Sources */,
+				2514868221E6437D002FF2D6 /* Frameworks */,
+				2514868321E6437D002FF2D6 /* Resources */,
+				DB4B231F0FA2562334EE2B67 /* [CP] Embed Pods Frameworks */,
+				82B33BF877F1C5AA41FC4CA5 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2514868721E6437D002FF2D6 /* PBXTargetDependency */,
+			);
+			name = JustPick1UITests;
+			productName = JustPick1UITests;
+			productReference = 2514868521E6437D002FF2D6 /* JustPick1UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2514865E21E64377002FF2D6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Amir Afridi";
+				TargetAttributes = {
+					2514866521E64377002FF2D6 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					2514867921E6437D002FF2D6 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 2514866521E64377002FF2D6;
+					};
+					2514868421E6437D002FF2D6 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 2514866521E64377002FF2D6;
+					};
+				};
+			};
+			buildConfigurationList = 2514866121E64377002FF2D6 /* Build configuration list for PBXProject "JustPick1" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2514865D21E64377002FF2D6;
+			productRefGroup = 2514866721E64377002FF2D6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2514866521E64377002FF2D6 /* JustPick1 */,
+				2514867921E6437D002FF2D6 /* JustPick1Tests */,
+				2514868421E6437D002FF2D6 /* JustPick1UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2514866421E64377002FF2D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2514867421E6437D002FF2D6 /* LaunchScreen.storyboard in Resources */,
+				2514867121E6437D002FF2D6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2514867821E6437D002FF2D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2514868321E6437D002FF2D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5B2C617405607C90587361E9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JustPick1Tests/Pods-JustPick1Tests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		82B33BF877F1C5AA41FC4CA5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JustPick1UITests/Pods-JustPick1UITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8606629BDFB52543E1DC0352 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JustPick1Tests/Pods-JustPick1Tests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8B7AF3EAFE5FB2E03036E980 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JustPick1UITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8DF719353AB7656D291878BF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JustPick1/Pods-JustPick1-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8E6F5D9BD711C5154AF052DC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JustPick1/Pods-JustPick1-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		956A1602C8B901FF9D276A84 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JustPick1Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C0A7F5FE1567855DA2C5359A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JustPick1-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DB4B231F0FA2562334EE2B67 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JustPick1UITests/Pods-JustPick1UITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2514866221E64377002FF2D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2514866C21E64377002FF2D6 /* ViewController.swift in Sources */,
+				2514869821E653E4002FF2D6 /* EnterOptionsViewController.swift in Sources */,
+				2514869B21E68188002FF2D6 /* PickOneViewController.swift in Sources */,
+				2514866A21E64377002FF2D6 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2514867621E6437D002FF2D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2514867F21E6437D002FF2D6 /* JustPick1Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2514868121E6437D002FF2D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2514868A21E6437D002FF2D6 /* JustPick1UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2514867C21E6437D002FF2D6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2514866521E64377002FF2D6 /* JustPick1 */;
+			targetProxy = 2514867B21E6437D002FF2D6 /* PBXContainerItemProxy */;
+		};
+		2514868721E6437D002FF2D6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2514866521E64377002FF2D6 /* JustPick1 */;
+			targetProxy = 2514868621E6437D002FF2D6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2514867221E6437D002FF2D6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2514867321E6437D002FF2D6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2514868C21E6437D002FF2D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2514868D21E6437D002FF2D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2514868F21E6437D002FF2D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A64A8374586A7341C3B854C8 /* Pods-JustPick1.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YL32S9RK6Z;
+				INFOPLIST_FILE = JustPick1/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = amirafridi.JustPick1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2514869021E6437D002FF2D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E286347F1190582E0144F86 /* Pods-JustPick1.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YL32S9RK6Z;
+				INFOPLIST_FILE = JustPick1/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = amirafridi.JustPick1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2514869221E6437D002FF2D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0390B708878F3336C3D5FAFE /* Pods-JustPick1Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YL32S9RK6Z;
+				INFOPLIST_FILE = JustPick1Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = amirafridi.JustPick1Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JustPick1.app/JustPick1";
+			};
+			name = Debug;
+		};
+		2514869321E6437D002FF2D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 567BE1B6306D339A461B0C96 /* Pods-JustPick1Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YL32S9RK6Z;
+				INFOPLIST_FILE = JustPick1Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = amirafridi.JustPick1Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JustPick1.app/JustPick1";
+			};
+			name = Release;
+		};
+		2514869521E6437D002FF2D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC1FBB99F9C57D8478E92A2B /* Pods-JustPick1UITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YL32S9RK6Z;
+				INFOPLIST_FILE = JustPick1UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = amirafridi.JustPick1UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JustPick1;
+			};
+			name = Debug;
+		};
+		2514869621E6437D002FF2D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 808915F685119D297FCBA671 /* Pods-JustPick1UITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YL32S9RK6Z;
+				INFOPLIST_FILE = JustPick1UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = amirafridi.JustPick1UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JustPick1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2514866121E64377002FF2D6 /* Build configuration list for PBXProject "JustPick1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2514868C21E6437D002FF2D6 /* Debug */,
+				2514868D21E6437D002FF2D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2514868E21E6437D002FF2D6 /* Build configuration list for PBXNativeTarget "JustPick1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2514868F21E6437D002FF2D6 /* Debug */,
+				2514869021E6437D002FF2D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2514869121E6437D002FF2D6 /* Build configuration list for PBXNativeTarget "JustPick1Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2514869221E6437D002FF2D6 /* Debug */,
+				2514869321E6437D002FF2D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2514869421E6437D002FF2D6 /* Build configuration list for PBXNativeTarget "JustPick1UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2514869521E6437D002FF2D6 /* Debug */,
+				2514869621E6437D002FF2D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2514865E21E64377002FF2D6 /* Project object */;
+}
